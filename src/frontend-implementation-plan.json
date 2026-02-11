@@ -1,0 +1,23 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update Visit Our Store map embed and add Google Maps link CTA",
+  "requirements": [
+    {
+      "id": "REQ-8",
+      "summary": "Make the “Visit Our Store” section’s embedded map match the provided Google Maps location and add a visible CTA that opens the exact Google Maps URL in a new tab.",
+      "acceptanceCriteria": [
+        "The “Visit Our Store” section provides a clearly visible call-to-action (button or text link) that opens https://maps.app.goo.gl/TkMaKv9cUV83vhFXA in a new tab (uses target=\"_blank\" with rel=\"noopener noreferrer\").",
+        "The embedded map shown in the iframe is updated (if feasible) to display the same store location as the provided Google Maps link, rather than a generic Korba map view.",
+        "All user-facing text added for this change is in English."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "In the “Visit Our Store” section: (1) replace the current generic Korba iframe src with an embed URL that resolves to the same store location as https://maps.app.goo.gl/TkMaKv9cUV83vhFXA (use Google Maps’ share/embed flow to obtain the correct embed URL), and (2) add a clearly visible CTA in the map section that opens https://maps.app.goo.gl/TkMaKv9cUV83vhFXA in a new tab using target=\"_blank\" and rel=\"noopener noreferrer\". Use the shadcn-ui Button component for the CTA styling/consistency (Verify the component's usage instructions before implementing). Ensure any added label text is English."
+        }
+      ]
+    }
+  ]
+}

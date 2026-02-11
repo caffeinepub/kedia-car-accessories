@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-visit-our-store-map-section-so-the-store-location-corresponds-to-https-maps-app-goo-gl-tkmakv9cuv83vhfxa-including-providing-a-visible-link-button-that-opens-this-exact-url-in-a-new-tab-from-the-map-section",
+      "featureTitle": "Update the “Visit Our Store” map section so the store location corresponds to https://maps.app.goo.gl/TkMaKv9cUV83vhFXA, including providing a visible link/button that opens this exact URL in a new tab from the map section.",
+      "files": [
+        "frontend/src/App.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

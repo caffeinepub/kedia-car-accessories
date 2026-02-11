@@ -1,0 +1,14 @@
+{
+  "backend/main.mo": "Empty Motoko canister actor with no methods defined.",
+  "feature_evidence.json": "Feature report describing a map-link update affecting frontend/src/App.tsx with associated components and metadata.",
+  "frontend-file-summaries.txt": "Prewritten summaries of key frontend files including App.tsx, global styles, Tailwind config, and index.html.",
+  "frontend/index.css": "Tailwind base layer defining OKLCH color variables and theme tokens for light/dark modes.",
+  "frontend/index.html": "HTML entry point setting the app root and loading main.tsx with proper meta tags.",
+  "frontend/src/App.tsx": "Main React landing page with header, hero, reviews, store map, gallery, and footer UI elements.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and manages a backend actor instance tied to Internet Identity state using react-query.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Authentication context and provider managing Internet Identity login, stored identities, and status flags.",
+  "frontend/src/index.css": "Global styles defining OKLCH color scheme, typography, and Tailwind base customizations.",
+  "frontend/src/main.tsx": "App entry point mounting React with query client and Internet Identity provider.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending theme with OKLCH color tokens, typography, animations, and container settings.",
+  "project_state.json": "JSON describing a static single‑page website project, including its schema version, architectural notes, existing features, and intended UI elements for the Kedia Car Accessories site."
+}

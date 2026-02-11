@@ -1,0 +1,40 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-11T04:27:51.110Z",
+  "summary": "REQ-8 appears partially addressed: the diff summary indicates an \"Open in Google Maps\" CTA in the \"Visit Our Store\" section linking to the provided https://maps.app.goo.gl/TkMaKv9cUV83vhFXA. However, the truncated App.tsx prevents verifying whether the embedded iframe map source was updated to match the same store location (vs a generic Korba view). Several additional, unrelated frontend styling/config/document-title changes were made that were not requested.",
+  "missing_requirements": [
+    {
+      "id": "REQ-8",
+      "requirement": "Update the embedded map shown in the iframe (if feasible) to display the same store location as https://maps.app.goo.gl/TkMaKv9cUV83vhFXA, rather than a generic Korba map view.",
+      "reason": "The diff excerpt for the \"Visit Our Store\" section is truncated, and no iframe src/embed URL change is visible in the provided snippet. The high-level file summary mentions an embedded map and a button, but does not provide evidence that the iframe embed source was updated to the provided location.",
+      "evidence": [
+        "frontend/src/App.tsx (truncated)",
+        "frontend-file-summaries.txt"
+      ]
+    }
+  ],
+  "hallucinated_features": [
+    {
+      "description": "Global theme/styling overhaul (OKLCH dark automotive theme tokens) beyond the requested map-link update.",
+      "reason": "BuildRequest only requests updating the store location map section/link; no styling/theme changes were requested.",
+      "evidence": [
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ]
+    },
+    {
+      "description": "Update of the HTML document title to \"Kedia Car Accessories | Korba CG\".",
+      "reason": "Not requested by REQ-8; scope was limited to updating the \"Visit Our Store\" map section/link.",
+      "evidence": [
+        "frontend/index.html"
+      ]
+    }
+  ],
+  "confidence": 0.66,
+  "changed_files": [
+    "frontend-file-summaries.txt",
+    "frontend/src/App.tsx",
+    "project_state.json"
+  ]
+}

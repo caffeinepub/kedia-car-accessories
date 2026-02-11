@@ -1,0 +1,38 @@
+{
+  "kind": "build_request",
+  "title": "Update store location Google Map to use provided Google Maps link",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-8",
+      "text": "Update the “Visit Our Store” map section so the store location corresponds to https://maps.app.goo.gl/TkMaKv9cUV83vhFXA, including providing a visible link/button that opens this exact URL in a new tab from the map section.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Add Google map https://maps.app.goo.gl/TkMaKv9cUV83vhFXA"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The “Visit Our Store” section provides a clearly visible call-to-action (button or text link) that opens https://maps.app.goo.gl/TkMaKv9cUV83vhFXA in a new tab (uses target=\"_blank\" with rel=\"noopener noreferrer\").",
+        "The embedded map shown in the iframe is updated (if feasible) to display the same store location as the provided Google Maps link, rather than a generic Korba map view.",
+        "All user-facing text added for this change is in English."
+      ]
+    }
+  ],
+  "constraints": [
+    "Frontend files in the immutable paths list must not be edited (compose existing UI components instead).",
+    "Do not add any backend changes; this is a static frontend update only."
+  ],
+  "nonGoals": [
+    "Adding an admin panel or any map management UI.",
+    "Adding new authentication or backend data storage.",
+    "Changing the Customer Reviews Google Review CTA link (it already uses the provided URL)."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

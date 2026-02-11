@@ -1,0 +1,6 @@
+{
+  "frontend/src/App.tsx": "Single-page landing component for Kedia Car Accessories featuring a sticky header, hero section with CTAs, customer reviews section, embedded Google Maps location with \"Open in Google Maps\" button that links to the specific store location, work gallery with three images, and footer with contact information and attribution.",
+  "frontend/src/index.css": "Global styles with OKLCH-based dark automotive theme using red primary (oklch(0.55 0.22 25)) and amber secondary (oklch(0.70 0.15 60)) colors, with consistent near-black backgrounds and high-contrast foregrounds for accessibility.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with OKLCH color tokens, custom border radius, and system font stack for consistent automotive-inspired styling across all breakpoints.",
+  "frontend/index.html": "HTML entry point with updated document title \"Kedia Car Accessories | Korba CG\" and viewport meta tag for responsive mobile-first layout."
+}

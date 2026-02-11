@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Static single-page website/landing page for \"Kedia Car Accessories\" (Korba, Chhattisgarh) featuring a hero/intro, contact links (email + Instagram), Google Review CTA, embedded Google Map, and a work gallery.",
+  "architectural_notes": [
+    "Site is a static HTML/CSS single page with responsive layout via viewport meta tag.",
+    "Uses external links (mailto, Instagram) and embeds Google Maps via iframe.",
+    "Gallery images currently use placeholders; intended to be replaced with real photos.",
+    "Store location map/link should reference https://maps.app.goo.gl/TkMaKv9cUV83vhFXA (ensure iframe/embed or a map CTA resolves to this location)."
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-implement-a-responsive-single-page-landing-ui-for-kedia-car-accessories-korba-cg-that-mirrors-the-provided-html-content-and-sections-header-intro-services-contact-ctas-email-instagram-customer-reviews-cta-google-review-link-store-location-google-maps-iframe-embed-work-gallery-and-footer",
+      "title": "Implement a responsive single-page landing UI for “Kedia Car Accessories | Korba CG” that mirrors the provided HTML content and sections: header, intro/services, contact CTAs (email + Instagram), customer reviews CTA (Google Review link), store location (Google Maps iframe embed), work gallery, and footer.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-coherent-automotive-inspired-dark-theme-using-tailwind-css-that-is-consistent-across-all-sections-e-g-near-black-background-strong-red-primary-accents-amber-secondary-accents-with-clear-typography-hierarchy-and-accessible-contrast",
+      "title": "Apply a coherent automotive-inspired dark theme using Tailwind CSS that is consistent across all sections (e.g., near-black background, strong red primary accents, amber secondary accents), with clear typography hierarchy and accessible contrast.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-contact-call-to-action-buttons-with-the-exact-destinations-mailto-kediaacc-gmail-com-and-https-instagram-com-kediacaraccessories-styled-as-prominent-buttons-and-opening-external-links-in-a-new-tab-where-applicable",
+      "title": "Add the contact call-to-action buttons with the exact destinations: mailto:kediaacc@gmail.com and https://instagram.com/kediacaraccessories, styled as prominent buttons and opening external links in a new tab where applicable.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-customer-reviews-section-with-a-prominent-cta-button-linking-to-the-exact-google-review-url-https-maps-app-goo-gl-tkmakv9cuv83vhfxa",
+      "title": "Add the “Customer Reviews” section with a prominent CTA button linking to the exact Google Review URL: https://maps.app.goo.gl/TkMaKv9cUV83vhFXA.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-embed-the-store-location-map-using-an-iframe-with-the-exact-google-maps-embed-source-from-the-provided-html-and-make-it-responsive-full-width-within-a-centered-max-width-container",
+      "title": "Embed the store location map using an iframe with the exact Google Maps embed source from the provided HTML and make it responsive (full width within a centered max-width container).",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-placeholder-gallery-images-with-bundled-static-images-stored-in-frontend-public-assets-generated-and-render-them-in-a-responsive-gallery-grid-1-column-on-mobile-multiple-columns-on-larger-screens-with-rounded-corners",
+      "title": "Replace the placeholder gallery images with bundled static images stored in frontend/public/assets/generated and render them in a responsive gallery grid (1 column on mobile, multiple columns on larger screens) with rounded corners.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-footer-that-includes-the-business-name-the-contact-email-kediaacc-gmail-com-and-the-instagram-handle-kediacaraccessories-using-english-text-and-consistent-dark-styling",
+      "title": "Add a footer that includes the business name, the contact email (kediaacc@gmail.com), and the Instagram handle (@kediacaraccessories), using English text and consistent dark styling.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-visit-our-store-map-section-so-the-store-location-corresponds-to-https-maps-app-goo-gl-tkmakv9cuv83vhfxa-including-providing-a-visible-link-button-that-opens-this-exact-url-in-a-new-tab-from-the-map-section",
+      "title": "Update the “Visit Our Store” map section so the store location corresponds to https://maps.app.goo.gl/TkMaKv9cUV83vhFXA, including providing a visible link/button that opens this exact URL in a new tab from the map section.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create responsive single-page landing site for Kedia Car Accessories with dark theme styling",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Add contact CTAs: email (mailto) and Instagram link",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Add Customer Reviews section with Google Review link CTA",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Embed store location map using Google Maps iframe",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Add work gallery section with images (currently placeholders)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Add footer with business name, contact email, and Instagram handle",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Add/ensure Google Map for store location uses https://maps.app.goo.gl/TkMaKv9cUV83vhFXA",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Kedia Car Accessories",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
